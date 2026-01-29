@@ -1,29 +1,51 @@
-# 🚗 Car Price Prediction
+Car Price Prediction using Machine Learning
 
-## 📌 Project Overview
-This project predicts car prices using machine learning regression techniques based on features such as brand, model, year, mileage, and fuel type.
+Overview
+This project focuses on predicting the selling price of used cars using machine learning techniques. The model learns patterns from historical car data such as brand, year, fuel type, transmission, mileage, and engine specifications to generate accurate price predictions.  
+The project demonstrates a complete **end-to-end ML workflow**, from data preprocessing to model evaluation.
 
-## 🧠 Technologies Used
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Google Colab
+Objectives
+- Analyze key factors affecting car prices
+- Perform data cleaning and exploratory data analysis (EDA)
+- Build and evaluate regression-based machine learning models
+- Improve prediction accuracy through feature engineering and model tuning
 
-## ⚙️ Workflow
-1. Data cleaning and preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature encoding and scaling
-4. Model training (Linear Regression / Random Forest)
-5. Model evaluation
+Machine Learning Approach
+- Problem Type: Supervised Learning (Regression)
+- Algorithms Used:
+  - Linear Regression
+  - Random Forest Regressor
+- Evaluation Metrics:
+  - R² Score
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
 
-## 📊 Result
-Achieved accurate price predictions with optimized model performance.
+Tech Stack & Tools
+- Programming Language: Python
+- Libraries:  
+  - NumPy  
+  - Pandas  
+  - Matplotlib  
+  - Seaborn  
+  - Scikit-learn
+- Development Environment: Google Colab
+- Version Control: Git & GitHub
 
-## ▶️ How to Run
-1. Open the notebook in Google Colab
-2. Upload the dataset
-3. Run all cells
+Project Workflow
+1. Data loading and inspection  
+2. Handling missing values and outliers  
+3. Exploratory Data Analysis (EDA)  
+4. Encoding categorical features  
+5. Feature scaling and selection  
+6. Model training and testing  
+7. Model evaluation and performance comparison  
 
-## 👨‍💻 Author
-Srikanth Jammula
+ Results & Insights
+- Identified strong correlations between car price and factors such as brand, age, mileage, and fuel type
+- Random Forest model outperformed baseline regression models
+- Achieved reliable prediction accuracy on unseen test data
+
+How to Run the Project
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/car-price-prediction.git
